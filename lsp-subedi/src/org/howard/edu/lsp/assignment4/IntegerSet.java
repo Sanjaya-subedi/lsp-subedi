@@ -32,19 +32,19 @@ private List<Integer> set = new ArrayList<Integer>();
 	              * Returns true if the 2 sets are equal, false otherwise;
 	 * Two sets are equal if they contain all of the same values in ANY order.
 	*/
-//	public boolean equals(IntegerSet b) {
-//		if (set.size() != b.length()) {
-//			return false;
-//		}
-//		for (int elem: set) {
-//			if (!b.contains(elem)) {
-//				return false;
-//			}
-//		return true;
-//			
-//		}return true;
-//	};
-//	
+	public boolean equals(IntegerSet b) {
+		if (set.size() != b.set.size()) {
+			return false;
+		}
+		for (int elem: set) {
+			if (!b.contains(elem)) {
+				return false;
+			}
+	
+			
+		}return true;
+	};
+
 	
 	
 	// Returns true if the set contains the value, otherwise false
