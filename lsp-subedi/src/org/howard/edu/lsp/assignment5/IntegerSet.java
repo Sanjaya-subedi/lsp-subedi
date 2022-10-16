@@ -1,9 +1,13 @@
-package org.howard.edu.lsp.assignment4;
+package org.howard.edu.lsp.assignment5;
 
 import java.util.ArrayList;
 
 
+
 import java.util.List;
+
+import org.howard.edu.lsp.assignment4.IntegerSetException;
+
 import java.util.*;
   
 
@@ -148,7 +152,12 @@ private List<Integer> set = new ArrayList<Integer>();
 	
 	// Return String representation of your set
 	public String toString() {
-		return set.toString();
+		String res_String = "";
+		for (int i=0;i<length();i++) {
+			res_String += Integer.toString(set.get(i));
+		}
+		return res_String;
+		
 
 };
 }
