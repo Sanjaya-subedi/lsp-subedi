@@ -10,6 +10,7 @@ import java.util.List;
  *
  */
 
+
 public interface AverageStrategy {
 	/**
 	 * {@summary to calculate the average of the grades given in a list }

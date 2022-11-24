@@ -7,6 +7,7 @@ import java.util.List;
  *
  *
  */
+
 public class AverageStrategyContext {
 	private AverageStrategy strategy;
 	

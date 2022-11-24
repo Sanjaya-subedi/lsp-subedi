@@ -5,6 +5,7 @@ package org.howard.edu.lsp.assignment6;
  * @author Sanjaya Subedi
  *
  */
+
 public class EmptyListException extends Exception {
 	
 	/**

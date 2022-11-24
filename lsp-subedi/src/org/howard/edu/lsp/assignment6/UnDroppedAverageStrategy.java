@@ -7,6 +7,7 @@ import java.lang.Math;
  * @author Sanjaya Subedi
  *
  *
+ *
  */
 public class UnDroppedAverageStrategy implements AverageStrategy {
 	

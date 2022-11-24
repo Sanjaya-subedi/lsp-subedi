@@ -11,6 +11,7 @@ import java.lang.Math;
  * @author Sanjaya Subedi
  *
  */
+
 public class TwoLowestDroppedAverageStrategy implements AverageStrategy {
 	
 	/**
