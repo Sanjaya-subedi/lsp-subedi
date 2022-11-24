@@ -1,7 +1,7 @@
 package org.howard.edu.lsp.assignment6;
 
 import java.util.List;
-
+import java.lang.Math;
 /**
  * {@summary implement average strategy for undropped grades}
  * @author Sanjaya Subedi
@@ -28,7 +28,7 @@ public class UnDroppedAverageStrategy implements AverageStrategy {
 			sumGrades += grades.get(i);
 		}
 		
-		int averageSum = Math.round((float) sumGrades / (float) grades.size());
+		int averageSum = Math.round(sumGrades/grades.size());
 		
 		return averageSum;
 	}

@@ -1,7 +1,9 @@
 package org.howard.edu.lsp.assignment6;
 
 import java.util.Collections;
+
 import java.util.List;
+import java.lang.Math;
 
 /**
  * {@summary implement average strategy for the two lowest dropped grades}
@@ -34,8 +36,9 @@ public class TwoLowestDroppedAverageStrategy implements AverageStrategy {
 			sumGrades += grades.get(i);
 		}
 		
-		Integer averageSum =  Math.round( (float) sumGrades / (float) grades.size());
+		Integer averageSum =  Math.round(sumGrades / grades.size());
 		return averageSum;
 	}
+	
 
 }
