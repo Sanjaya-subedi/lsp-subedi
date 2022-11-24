@@ -82,6 +82,7 @@ class AverageStrategyContextTest {
 		
 		//dropped average
 		assertEquals("The average value of [90, 84, 71, 92, 93, 98] when dropping the lowest two grades is 93", 93, droppedAverage.getAverage(gradesI));
+	}
 		
 		
 		
