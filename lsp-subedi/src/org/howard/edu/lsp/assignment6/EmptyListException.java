@@ -15,3 +15,4 @@ public class EmptyListException extends Exception {
 		super("Empty list cannot have values to calculate averages");
 	}
 }
+

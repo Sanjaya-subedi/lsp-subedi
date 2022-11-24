@@ -18,7 +18,11 @@ import org.junit.jupiter.api.Test;
  *
  */
 
+
 class AverageStrategyContextTest {
+	/**
+	 * {@summary to check which type of strategy is implemented}
+	 */
 	@Test
 	@DisplayName("Test cases for type of strategy implemented")
 	public void testSetAverageStrategy() {
@@ -43,7 +47,6 @@ class AverageStrategyContextTest {
 	
 	/**
 	 * {@summary to check getAverage method}
-	 * @throws EmptyListException 
 	 */
 	@Test
 	@DisplayName("Test cases for getAverage method of the given strategies")
@@ -82,19 +85,11 @@ class AverageStrategyContextTest {
 		
 		
 		
-		//empty list after dropping two lowest grades
-		gradesII.add(93);
-		gradesII.add(98);
 		
-		assertThrows(" EmptyListException ", EmptyListException.class ,
-				() -> {
-					
-					droppedAverage.getAverage(gradesII);
-				}
-				);
-	}
-	
-	
+	/**
+	 * {@summary to check exception error when the list is empty for UnDroppedAverageStrategy }
+	 * @throws EmptyListException 
+	 */
 	
 	@Test
 	@DisplayName("testUndropped throws exception")
@@ -117,6 +112,11 @@ class AverageStrategyContextTest {
 	}
 	
 	
+	/**
+	 * {@summary to check exception error when the list is empty for TwoLowestDroppedAverageStrategy
+	 * after removing two lowest grades }
+	 * @throws EmptyListException 
+	 */
 	@Test
 	@DisplayName("testTwoLowestDropped throws exception")
 	public void testTwoLowestDropped_THROWS_EXCEPTION() {

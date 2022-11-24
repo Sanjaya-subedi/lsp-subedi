@@ -5,6 +5,7 @@ import java.util.List;
  * {@summary to implement Average Strategy Context}
  * @author Sanjaya Subedi
  *
+ *
  */
 public class AverageStrategyContext {
 	private AverageStrategy strategy;
